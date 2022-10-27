@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Antonio Goez">
+
+  <title>Colombia-Tattoo</title>
+  <meta name="keywords" content="tatuador, tatuador en colombia, studio de tatuajes, tatuajes en bogota">
+
+  <!-- css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="plugins/cubeportfolio/css/cubeportfolio.min.css">
+  <link href="css/nivo-lightbox.css" rel="stylesheet" />
+  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- boxed bg -->
+  <!-- <link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" /> -->
+  <!-- template skin -->
+  <link id="t-colors" href="color/default.css" rel="stylesheet">
+
+  <script language="javascript">
+    window.onload = function () {
+      var myInput = document.getElementById('bloquear');
+      myInput.onpaste = function (e) {
+        e.preventDefault();
+        alert("Esta acción está prohibida.");
+      }
+      myInput.oncopy = function (e) {
+        e.preventDefault();
+        alert("Esta acción está prohibida.");
+      }
+    }
+    function deshabilitarMenuContextual() {
+      return false
+    }
+    document.oncontextmenu = deshabilitarMenuContextual
+
+
+    var control = false;
+    function checkKey(evt) {
+      if (evt.keyCode == 17) {
+        control = true;
+        return true;
+      }
+      if (control) {
+        alert("Que intentas hacer?");
+        return false;
+      }
+    }
+    function salir(evt) {
+      if (evt.keyCode == 17)
+        control = false;
+    }
+  </script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" class="body">
+
+
+  <div id="wrapper">
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="top-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-6">
+              <p class="bold text-left">lunes a viernes, 8am a 10pm </p>
+            </div>
+            <div class="col-sm-6 col-md-6">
+              <p class="bold text-right">Celular: 360.666.66.66</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container navigation">
+
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h2>Colombia-Tattoo</h2>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#intro">Inicio</a></li>
+            <li><a href="#service">Servicios</a></li>
+            <li><a href="#doctor">Equipo de Trabajo</a></li>
+            <li><a href="#facilities">Portafolio</a></li>
+            <li><a href="#pricing">Precios</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                  class="badge custom-badge red pull-right">Quieres</span>Más <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#testimonial">Nuestros Clientes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <!-- Section: intro -->
+    <section id="intro" class="intro">
+      <div class="intro-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="wow fadeInDown" data-wow-offset="0" data-wow-delay="0.1s">
+                <h2 class="h-ultra h4">Colombia-Tattoo</h2>
+              </div>
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.1s">
+                <h4 class="h-light h4">Studio de Tatuajes</h4>
+              </div>
+
+              <!-- ===============================plantilla foto fondo========================== -->
+              <div class="wel well-trans">
+                <div class="wow fadeInRight" data-wow-delay="0.1s">
+
+                  <ul class="lead-list">
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span
+                        class="list text-light"><strong>Seguridad</strong><br />Con todos los protocolos de
+                        bioseguridad.</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span
+                        class="list text-light"><strong>Garantía</strong><br />Nos intereza que confíen en nuestro
+                        equipo de trabajo.</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span
+                        class="list text-light"><strong>Compromiso</strong><br />Estamos comprometidos con nuestros
+                        clientes.</span></li>
+                  </ul>
+                  <p class="text-right wow bounceIn" data-wow-delay="0.4s">
+                    <a href="#partner" class="btn btn-skin btn-lg">Saber más <i class="fa fa-angle-right"></i></a>
+                  </p>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="col-lg-6">
+              <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+                <img src="img/dummy/intenze4.webp" class="img-responsive" alt="intenze" title="Pigmento Intenze" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /Section: intro -->
+
+    <!-- Section: boxes -->
+    <section id="boxes" class="home-section paddingtop-80">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box text-center">
+
+                <i class="fa fa-check fa-3x circled bg-skin"></i>
+                <h4 class="h-bold">Bioseguridad</h4>
+                <p>
+                  La bioseguridad es el conjunto de principios, normas, protocolos, tecnologías y prácticas que se
+                  implementan para evitar el riesgo para la salud.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box text-center">
+                <i class="fa-solid fa-person-shelter fa-3x circled bg-skin"></i>
+                <h4 class="h-bold">Instalaciones</h4>
+                <p>
+                  Nuestras instalaciones estan actas para practicar el arte del tatuaje, dando principio y confianza a
+                  nuestros clientes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box text-center">
+                <i class="fa-solid fa-address-book  fa-3x circled bg-skin"></i>
+                <h4 class="h-bold">Certificaciones</h4>
+                <p>
+                  Absolutamente todos nuestros artistas cuentan con toda su documentación al día, nuestras instalaciones
+                  tienen sus respectivos permisos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box text-center">
+                <i class="fa-solid fa-person-chalkboard fa-3x circled bg-skin"></i>
+                <h4 class="h-bold">Nuestros Clientes</h4>
+                <p>
+                  Nuestros clientes nos recomiendan 100%, gracias a ellos gozamos de máximo prestigio en el arte del
+                  tatuaje.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- /Section: boxes -->
+
+
+    <section id="callaction" class="home-section paddingtop-40">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="callaction bg-gray">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="cta-text">
+                      <h3>Mís Servicios como Tatuador</h3>
+                      <p>Arte y diseño en la palma de tu mano.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="wow lightSpeedIn" data-wow-delay="0.1s">
+                    <div class="cta-btn">
+                      <a href="#pricing" class="btn btn-skin btn-lg">Promociones</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section: services -->
+    <section id="service" class="home-section nopadding paddingtop-60">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-6 col-md-6">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <img src="img/dummy/hombre-tatuado.webp" class="img-responsive" alt="Desarrollador web"
+                title="Administrador" />
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+
+            <div class="wow fadeInRight" data-wow-delay="0.1s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span><i class="fa-solid fa-paintbrush fa-3x"></i></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light">Diseño</h5>
+                  <p>Tus ideas plasmadas en tu piel.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="wow fadeInRight" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="fa fa-wheelchair fa-3x"></span>
+                  <span></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light">Perforaciones</h5>
+                  <p>piercings, expansiones, etc, joyería de alta calidad.</p>
+                </div>
+              </div>
+            </div>
+            <div class="wow fadeInRight" data-wow-delay="0.3s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="fa fa-plus-square fa-3x"></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light">Primeros Auxilios</h5>
+                  <p>Unico studio tatto con este servicio en Colombia.</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-sm-3 col-md-3">
+
+            <div class="wow fadeInRight" data-wow-delay="0.1s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span><i class="fa-solid fa-cash-register fa-3x"></i></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light">Accesorios</h5>
+                  <p>Venta de camisetas, cigarrillos electrónicos.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="wow fadeInRight" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span><i class="fa-solid fa-people-roof fa-3x"></i></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light">Ambiente Familiar</h5>
+                  <p>Siéntase como en su casa</p>
+                </div>
+              </div>
+            </div>
+            <div class="wow fadeInRight" data-wow-delay="0.3s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span><i class="fa-solid fa-headset fa-3x"></i></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light">Servicio al cliente</h5>
+                  <p>Nuestros servicios son exclusivos solo para tí.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /Section: services -->
+
+
+    <!-- Section: team -->
+    <section id="doctor" class="home-section bg-gray paddingbot-60">
+      <div class="container marginbot-50">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="section-heading text-center">
+                <h2 class="h-bold">Nuestro Equipo de Trabajo</h2>
+                <p>Cada uno de nuestro personal esta altamente calificado.</p>
+              </div>
+            </div>
+            <div class="divider-short"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+
+            <div id="filters-container" class="cbp-l-filters-alignLeft">
+              <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">todos (
+                <div class="cbp-filter-counter"></div>)
+              </div>
+              <div data-filter=".cardiologist" class="cbp-filter-item">Tatuador (
+                <div class="cbp-filter-counter"></div>)
+              </div>
+              <div data-filter=".psychiatrist" class="cbp-filter-item">Diseñadora (
+                <div class="cbp-filter-counter"></div>)
+              </div>
+              <div data-filter=".neurologist" class="cbp-filter-item">Administrador (
+                <div class="cbp-filter-counter"></div>)
+              </div>
+            </div>
+
+            <div id="grid-container" class="cbp-l-grid-team">
+              <ul>
+                <li class="cbp-item psychiatrist">
+                  <a href="doctors/member1.html" class="cbp-caption cbp-singlePage">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/team/diseñadora.webp" alt="Desarrollador web" title="Diseñadora" width="100%">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-text">Ver perfil</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="doctors/member1.html" class="cbp-singlePage cbp-l-grid-team-name">María Gomez</a>
+                  <div class="cbp-l-grid-team-position">Diseñadora</div>
+                </li>
+                <li class="cbp-item cardiologist">
+                  <a href="doctors/member2.html" class="cbp-caption cbp-singlePage">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/team/tatuadora1.webp" alt="tatuadora" title="tatuadora" width="100%">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-text">Ver perfil</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="doctors/member2.html" class="cbp-singlePage cbp-l-grid-team-name">Mercedez Sánchez</a>
+                  <div class="cbp-l-grid-team-position">Tatuadora</div>
+                </li>
+                <li class="cbp-item cardiologist">
+                  <a href="doctors/member3.html" class="cbp-caption cbp-singlePage">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/team/tatuador.webp" alt="Desarrollador web" title="Tatuador" width="100%">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-text">Ver perfil</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="doctors/member3.html" class="cbp-singlePage cbp-l-grid-team-name">Georgette Caleb</a>
+                  <div class="cbp-l-grid-team-position">Tatuador</div>
+                </li>
+                <li class="cbp-item neurologist">
+                  <a href="doctors/member4.html" class="cbp-caption cbp-singlePage">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/team/administrador.webp" alt="Desarrollador web" title="Administrador" width="100%">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-text">Ver perfil</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="doctors/member4.html" class="cbp-singlePage cbp-l-grid-team-name">Iván Jaramillo</a>
+                  <div class="cbp-l-grid-team-position">Administrador y Tatuador</div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- /Section: team -->
+
+
+
+    <!-- Section: works -->
+    <section id="facilities" class="home-section paddingbot-60">
+      <div class="container marginbot-50">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="section-heading text-center">
+                <h2 class="h-bold">Portafolio</h2>
+                <p>Nuestros ultimos trabajos.</p>
+              </div>
+            </div>
+            <div class="divider-short"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="wow bounceInUp" data-wow-delay="0.2s">
+              <div id="owl-works" class="owl-carousel">
+                <div class="item"><a href="img/photo/foto6.webp" title="Tatuaje" data-lightbox-gallery="gallery1"
+                    data-lightbox-hidp="img/works/1@2x.jpg"><img src="img/photo/foto6.webp" class="img-responsive"
+                      alt="img" title="Tatuaje"></a></div>
+                <div class="item"><a href="img/photo/foto2.webp" title="Tatuaje" data-lightbox-gallery="gallery1"
+                    data-lightbox-hidp="img/works/2@2x.jpg"><img src="img/photo/foto2.webp" class="img-responsive "
+                      alt="img" title="tatuaje"></a></div>
+                <div class="item"><a href="img/photo/foto1.webp" title="Tatuaje" data-lightbox-gallery="gallery1"
+                    data-lightbox-hidp="img/works/3@2x.jpg"><img src="img/photo/foto1.webp" class="img-responsive "
+                      alt="img" title="Tatuaje"></a></div>
+                <div class="item"><a href="img/photo/foto5.webp" title="Tatuaje" data-lightbox-gallery="gallery1"
+                    data-lightbox-hidp="img/works/4@2x.jpg"><img src="img/photo/foto5.webp" class="img-responsive "
+                      alt="img" title="Tatuaje"></a></div>
+                <div class="item"><a href="img/photo/foto4.webp" title="Tatuaje" data-lightbox-gallery="gallery1"
+                    data-lightbox-hidp="img/works/5@2x.jpg"><img src="img/photo/foto4.webp" class="img-responsive "
+                      alt="img" title="Tatuaje"></a></div>
+                <div class="item"><a href="img/photo/foto3.webp" title="Tatuaje" data-lightbox-gallery="gallery1"
+                    data-lightbox-hidp="img/works/6@2x.jpg"><img src="img/photo/foto3.webp" class="img-responsive "
+                      alt="img" title="Tatuaje"></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section: works -->
+
+
+    <!-- Section: testimonial -->
+    <section id="testimonial" class="home-section paddingbot-60 parallax" data-stellar-background-ratio="0.5">
+
+      <div class="carousel-reviews broun-block">
+        <div class="container">
+          <div class="row">
+            <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-md-4 col-sm-6">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Maria del carmen</a>
+                      <div class="mark">Calificación: <span class="rating-input"><span data-value="0"
+                            class="glyphicon glyphicon-star"></span><span data-value="1"
+                            class="glyphicon glyphicon-star"></span><span data-value="2"
+                            class="glyphicon glyphicon-star"></span><span data-value="3"
+                            class="glyphicon glyphicon-star"></span><span data-value="4"
+                            class="glyphicon glyphicon-star-empty"></span><span data-value="5"
+                            class="glyphicon glyphicon-star-empty"></span> </span>
+                      </div>
+                      <p>
+                        Son unos artistas muy bueno´s en lo que hacen, estoy muy agradecida por sus valiosos servicios
+                        los recomiendo al 100%.
+                      </p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/1.webp" alt="desarrollador web" title="Testimonio"
+                        class="person img-circle" />
+                      <a title="" href="#">María del Carmen</a>
+                      <span>Bogotá(Cundinamarca)</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 hidden-xs">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Miguel Antonio isaza</a>
+                      <div class="mark">Calificación: <span class="rating-input"><span data-value="0"
+                            class="glyphicon glyphicon-star"></span><span data-value="1"
+                            class="glyphicon glyphicon-star"></span><span data-value="2"
+                            class="glyphicon glyphicon-star-empty"></span>
+                          <span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4"
+                            class="glyphicon glyphicon-star-empty"></span><span data-value="5"
+                            class="glyphicon glyphicon-star-empty"></span> </span>
+                      </div>
+                      <p>
+                        Tuve un pequeño percance con el tiempo, pero nada que ver, lo que importa es el resultado, me
+                        lleve una gran obra de arte.
+                      </p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/2.webp" alt="desarrollador web" title="testiminio"
+                        class="person img-circle" />
+                      <a title="" href="#">Miguel Antonio Isaza</a>
+                      <span>Bello(Antioquia)</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Dallas Villalobos</a>
+                      <div class="mark">Calificación: <span class="rating-input"><span data-value="0"
+                            class="glyphicon glyphicon-star"></span><span data-value="1"
+                            class="glyphicon glyphicon-star"></span><span data-value="2"
+                            class="glyphicon glyphicon-star"></span><span data-value="3"
+                            class="glyphicon glyphicon-star"></span><span data-value="4"
+                            class="glyphicon glyphicon-star"></span><span data-value="5"
+                            class="glyphicon glyphicon-star"></span> </span>
+                      </div>
+                      <p>
+                        Muy contenta y emocionada, su trabajo es espetacular, nunca lo había imaginado,
+                        recomendadísimos.
+                      </p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/3.webp" alt="desarrollador web" title="testimonio"
+                        class="person img-circle" />
+                      <a title="" href="#">Dallas Villalobos</a>
+                      <span>Puerto Salgar(Cundinamarca)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Austin Sanches</a>
+                      <div class="mark">Calificación: <span class="rating-input"><span data-value="0"
+                            class="glyphicon glyphicon-star"></span><span data-value="1"
+                            class="glyphicon glyphicon-star"></span><span data-value="2"
+                            class="glyphicon glyphicon-star"></span><span data-value="3"
+                            class="glyphicon glyphicon-star"></span><span data-value="4"
+                            class="glyphicon glyphicon-star-empty"></span><span data-value="5"
+                            class="glyphicon glyphicon-star-empty"></span> </span>
+                      </div>
+                      <p>
+                        Gracias por el cover que me hicieron, quedo fantástico y por cierto quiero otro.
+                      </p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/4.webp" alt="desarrollador web" title="testimonio"
+                        class="person img-circle" />
+                      <a title="" href="#">Austin Sanchez</a>
+                      <span>Bogota(Cundinamarca)</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 hidden-xs">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Julia Camacho</a>
+                      <div class="mark">Calificación: <span class="rating-input"><span data-value="0"
+                            class="glyphicon glyphicon-star"></span><span data-value="1"
+                            class="glyphicon glyphicon-star"></span><span data-value="2"
+                            class="glyphicon glyphicon-star-empty"></span>
+                          <span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4"
+                            class="glyphicon glyphicon-star-empty"></span><span data-value="5"
+                            class="glyphicon glyphicon-star-empty"></span> </span>
+                      </div>
+                      <p>
+                        Los recomiendo, buen trabajo, colores vivos y brillantes, son los mejores.
+                      </p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/5.webp" alt="desarrollador web" title="testimonio"
+                        class="person img-circle" />
+                      <a title="" href="#">Julia Camacho</a>
+                      <span>Medellín(Antioquia)</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Sofía Restrepo</a>
+                      <div class="mark">Calificación: <span class="rating-input"><span data-value="0"
+                            class="glyphicon glyphicon-star"></span><span data-value="1"
+                            class="glyphicon glyphicon-star"></span><span data-value="2"
+                            class="glyphicon glyphicon-star"></span><span data-value="3"
+                            class="glyphicon glyphicon-star"></span><span data-value="4"
+                            class="glyphicon glyphicon-star"></span><span data-value="5"
+                            class="glyphicon glyphicon-star"></span></span>
+                      </div>
+                      <p>
+                        Antes había tenido una mala experiencia, pero en <b>Colombia Tatto</b> es como volver a nacer,
+                        me taparón el tatuaje horrendo que tenia, estoy muy feliz.
+                      </p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/6.webp" alt="desarrollador web" title="testimonio"
+                        class="person img-circle" />
+                      <a title="" href="#">Sofia Restrepo</a>
+                      <span>Bogotá(Cundinamarca)</span>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section: testimonial -->
+
+
+    <!-- Section: pricing -->
+    <section id="pricing" class="home-section bg-gray paddingbot-60">
+      <div class="container marginbot-50">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow lightSpeedIn" data-wow-delay="0.1s">
+              <div class="section-heading text-center">
+                <h2 class="h-bold">Precios</h2>
+                <p>Aplican términos y condiciones.</p>
+              </div>
+            </div>
+            <div class="divider-short"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-sm-4 pricing-box">
+            <div class="wow bounceInUp" data-wow-delay="0.1s">
+              <div class="pricing-content general">
+                <h2>Full Color</h2>
+                <h3>$150.000<sup>.99</sup> <span>/ Por tiempo limitado</span></h3>
+                <ul>
+                  <li>Tamaño máximo de (20x20.cm)<i class="fa fa-check icon-success"></i></li>
+                  <li>En una sesión<i class="fa fa-check icon-success"></i></li>
+                  <li>Diseño – Exclusivo <i class="fa fa-check icon-success"></i></li>
+                  <li><del>No Realismo</del> <i class="fa fa-times icon-danger"></i></li>
+                </ul>
+
+                <div class="price-bottom">
+                  <a href="#contacto" class="btn btn-skin btn-lg">Cotizar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 pricing-box featured-price">
+            <div class="wow bounceInUp" data-wow-delay="0.3s">
+              <div class="pricing-content featured">
+                <h2>Hiperrealismo</h2>
+                <h3>$600.000<sup>.99</sup> <span>/ Por tiempo limitado</span></h3>
+                <ul>
+                  <li>Retrato<i class="fa fa-check icon-success"></i></li>
+                  <li>En una sesión<i class="fa fa-check icon-success"></i></li>
+                  <li>Diseño – Exclusivo <i class="fa fa-check icon-success"></i></li>
+                  <li>Retoques <i class="fa fa-check icon-success"></i></li>
+                  <li>Garantía <i class="fa fa-check icon-success"></i></li>
+                </ul>
+
+                <div class="price-bottom">
+                  <a href="#contacto" class="btn btn-skin btn-lg">Cotizar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 pricing-box">
+            <div class="wow bounceInUp" data-wow-delay="0.2s">
+              <div class="pricing-content general last">
+                <h2>Puntillismo</h2>
+                <h3>$500.000<sup>.99</sup> <span>/ Por tiempo limitado</span></h3>
+                <ul>
+                  <li>Retratos, otros<i class="fa fa-check icon-success"></i></li>
+                  <li>2 sesiones <i class="fa fa-check icon-success"></i></li>
+                  <li>Diseño – Exclusivo <i class="fa fa-check icon-success"></i></li>
+                  <li><del>No color</del> <i class="fa fa-times icon-danger"></i></li>
+                </ul>
+
+                <div class="price-bottom">
+                  <a href="#contacto" class="btn btn-skin btn-lg">Cotizar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- /Section: pricing -->
+
+    <section id="partner" class="home-section paddingbot-60">
+      <div class="container marginbot-50">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow lightSpeedIn" data-wow-delay="0.1s">
+              <div class="section-heading text-center">
+                <h2 class="h-bold">Insumos</h2>
+                <p>Nuestros insumos y máquinas de tatuar son de marca genuina.</p>
+              </div>
+            </div>
+            <div class="divider-short"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <div class="partner">
+              <a href="#"><img src="img/dummy/intenze1.webp" width="200px" alt="desarrollador web"
+                  title="intenze" /></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="partner">
+              <a href="#"><img src="img/dummy/dynamic.webp" width="200px" alt="desarrollador web" title="dynamic" /></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="partner">
+              <a href="#"><img src="img/dummy/ez.webp" width="200px" alt="desarrollador web" title="Cartuchos EZ" /></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="partner">
+              <a href="#"><img src="img/dummy/cheyenne.webp" width="200px" alt="desarrollador web"
+                  title="Míquinas Cheyenne" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+
+      <div class="container" id="contacto">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="widget">
+                <h5>Sobre Nosotros</h5>
+                <p>
+                  Hola, hablo de parte de <b>Colombia-Tatto</b> somos un equipo dedicado al arte del tatuaje, contamos
+                  con más de 10 años de experiencia.
+                </p>
+              </div>
+            </div>
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="widget">
+                <h5>Información</h5>
+                <ul>
+                  <li><a href="#intro">Inicio</a></li>
+                  <li><a href="#service">Servicios</a></li>
+                  <li><a href="#doctor">Equipo de trabajo</a></li>
+                  <li><a href="#pricing">Precios</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="widget">
+                <h5>Contacto</h5>
+                <p>
+                  Comunicate con nosotros para más Información.
+                </p>
+                <ul>
+                  <li>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa-solid fa-address-card fa-stack-1x fa-inverse"></i>
+                    </span> Lunes - Sabado, 8am a 10pm
+                  </li>
+                  <li>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+                    </span>360.666.66.66
+                  </li>
+                  <li>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa-solid fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span> info@colombiatattoo.com
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="widget">
+                <h5>Bogota. Colombia</h5>
+                <p>Usaquen. (cra 7 #1044)</p>
+
+              </div>
+            </div>
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="widget">
+                <h5>Nuestra Redes Sociales</h5>
+                <ul class="company-social">
+                  <li class="social-facebook"><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                  <li class="social-twitter"><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                  <li class="social-google"><a href="#"><i class="fa-brands fa-google-plus-square"></i></a></li>
+                  <li class="social-vimeo"><a href="#"><i class="fa-brands fa-whatsapp-square"></i></a></li>
+                  <li class="social-dribble"><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="wow fadeInLeft" data-wow-delay="0.1s">
+                <div class="text-left">
+                  <p>&copy;Copyright | Todos los derechos reservados |.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="wow fadeInRight" data-wow-delay="0.1s">
+                <div class="text-right">
+                  <div class="credits">
+
+                    <a href="https://www.antoniogoez.com" target="_blank">Otro proyecto de <b>Antonio Goez</b></a>
+                    Desarrollador Web.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/nivo-lightbox.min.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
